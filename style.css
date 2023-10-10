@@ -79,7 +79,12 @@ body {
 
 .menu-button {
   position: fixed;
+  width: 40px;
+  height: 40px;
   top: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  border-radius: 100%;
   left: 20px;
   z-index: 9;
   cursor: pointer;
@@ -87,8 +92,9 @@ body {
 
 .menu-button span {
   display: block;
-  width: 20px;
-  height: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
   margin-bottom: 4px;
   transition: transform 0.3s, opacity 0.3s;
 }
